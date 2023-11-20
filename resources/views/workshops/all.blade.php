@@ -8,8 +8,7 @@
         <thead>
             <tr>
                 <th>Nama</th>
-                <th>Waktu_mulai</th>
-                <th>Waktu_selesai</th>
+                <th>Tanggal</th>
                 <th>Topik_workshops</th>
                 <th>Fasilitator</th>
                 <th>Detail</th>
@@ -20,8 +19,7 @@
             @foreach ($workshopss as $workshops)
                 <tr>
                     <td>{{ $workshops->nama }}</td>
-                    <td>{{ $workshops->waktu_mulai }}</td>
-                    <td>{{ $workshops->waktu_selesai }}</td>
+                    <td>{{ $workshops->tanggal }}</td>
                     <td>{{ $workshops->topik_workshops }}</td>
                     <td>{{ $workshops->fasilitator }}</td>
     

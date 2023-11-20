@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Detail Workshopst</h2>
+        <h2>Detail Workshops</h2>
         <form method="post" action="">
             @csrf <!-- CSRF Token -->
             <div class="form-group">
@@ -15,13 +15,8 @@
             </div>
 
             <div class="form-group">
-                <label for="waktu_mulai">Waktu_mulai:</label>
-                <input type="text" class="form-control" id="waktu_mulai" name="waktu_mulai" value="{{ $workshops->waktu_mulai }}" readonly>
-            </div>
-
-            <div class="form-group">
-                <label for="waktu_selesai">Waktu_selesai:</label>
-                <input type="text" class="form-control" id="waktu_selesai" name="waktu_selesai" value="{{ $workshops->waktu_selesai }}" readonly>
+                <label for="tanggal">Tanggal:</label>
+                <input type="text" class="form-control" id="tanggal" name="tangga" value="{{ $workshops->tanggal }}" readonly>
             </div>
 
             <div class="form-group">

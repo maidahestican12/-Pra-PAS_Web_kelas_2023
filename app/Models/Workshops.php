@@ -11,8 +11,7 @@ class workshops extends Model
 
     protected $fillable = [
         'nama',
-        'waktu_mulai',
-        'waktu_selesai',
+        'tanggal',
         'topik_workshops',
         'fasilitator',
         'lokasi',

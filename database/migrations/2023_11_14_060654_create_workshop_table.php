@@ -14,8 +14,7 @@ return new class extends Migration
         Schema::create('workshop', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->date('waktu_mulai');
-            $table->date('waktu_selesai');
+            $table->date('tanggal');
             $table->string('topik_workshops');
             $table->string('fasilitator');
             $table->string('lokasi');
