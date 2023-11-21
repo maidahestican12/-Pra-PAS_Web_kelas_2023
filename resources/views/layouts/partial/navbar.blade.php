@@ -15,6 +15,10 @@
     <li class="nav-item">
     <a class="nav-link {{ Request::is('smk/all') ? 'active' : '' }}" href="{{ url('workshops/all') }}">Workshops</a>
     </li>
+
+    <li class="nav-item">
+    <a class="nav-link {{ Request::is('smk/all') ? 'active' : '' }}" href="{{ url('daftar/all') }}">Daftar</a>
+    </li>
          
                 
             </ul>

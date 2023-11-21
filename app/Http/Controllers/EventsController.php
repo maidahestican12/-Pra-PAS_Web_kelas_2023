@@ -21,3 +21,4 @@ class EventsController extends Controller
     return view('event.detail', ['event' => $event]);
 }
 }
+

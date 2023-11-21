@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Models\Events;
 use App\Http\Controllers\EventsController;
 use App\Http\Controllers\WorkshopsController;
+use App\Http\Controllers\DaftarrController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,4 +28,7 @@ Route::get('/event/detail/{event}', [EventsController::class, 'show']);
 
 Route::get('/workshops/all', [WorkshopsController::class, 'index']);
 Route::get('/workshops/detail/{workshops}', [WorkshopsController::class, 'show']);
+
+Route::get('/daftar/all', [DaftarrController::class, 'index']);
+Route::get('/daftar/detail/{daftar}', [DaftarrController::class, 'show']);
 

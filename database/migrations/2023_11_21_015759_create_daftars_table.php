@@ -11,14 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('workshop', function (Blueprint $table) {
+        Schema::create('daftars', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->date('tanggal');
-            $table->string('topik_workshops');
-            $table->string('fasilitator');
-            $table->string('lokasi');
-            
+            $table->string('no_peserta');
+            $table->string('nama_event');
+            $table->string('nama_peserta');
+            $table->string('email');
+            $table->date('tanggal_pendaftaran');
             $table->timestamps();
         });
     }
@@ -28,7 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('workshop');
+        Schema::dropIfExists('daftars');
     }
 };
-
