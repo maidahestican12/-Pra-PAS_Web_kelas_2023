@@ -3,7 +3,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1>Event</h1>
+    <h1>Daftar</h1>
     <table class="table table-dark table-striped" style="width: 40%;">
         <thead>
             <tr>
