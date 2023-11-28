@@ -10,8 +10,8 @@
         <form method="post" action="">
             @csrf <!-- CSRF Token -->
             <div class="form-group">
-                <label for="nama">Nama:</label>
-                <input type="text" class="form-control" id="nama" name="nama" value="{{ $workshops->nama }}" readonly>
+                <label for="nama_workshops">Nama Workshops:</label>
+                <input type="text" class="form-control" id="nama_workshops" name="nama_workshops" value="{{ $workshops->nama_workshops }}" readonly>
             </div>
 
             <div class="form-group">
@@ -27,6 +27,11 @@
             <div class="form-group">
                 <label for="fasilitator">Fasilitator:</label>
                 <input type="text" class="form-control" id="fasilitator" name="fasilitator" value="{{ $workshops->fasilitator }}" readonly>
+            </div>
+
+            <div class="form-group">
+                <label for="lokasi">Lokasi:</label>
+                <input type="text" class="form-control" id="lokasi" name="lokasi" value="{{ $workshops->lokasi }}" readonly>
             </div>
 
             <!-- Back Button -->

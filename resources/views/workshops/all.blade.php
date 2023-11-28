@@ -7,10 +7,11 @@
     <table class="table table-dark table-striped" style="width: 40%;">
         <thead>
             <tr>
-                <th>Nama</th>
+                <th>Nama_Workshops</th>
                 <th>Tanggal</th>
                 <th>Topik_workshops</th>
                 <th>Fasilitator</th>
+                <th>Lokasi</th>
                 <th>Detail</th>
                 
             </tr>
@@ -18,10 +19,11 @@
         <tbody>
             @foreach ($workshopss as $workshops)
                 <tr>
-                    <td>{{ $workshops->nama }}</td>
+                    <td>{{ $workshops->nama_workshops }}</td>
                     <td>{{ $workshops->tanggal }}</td>
                     <td>{{ $workshops->topik_workshops }}</td>
                     <td>{{ $workshops->fasilitator }}</td>
+                    <td>{{ $workshops->lokasi }}</td>
     
                     <td>
                         
