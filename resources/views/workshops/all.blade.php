@@ -12,7 +12,7 @@
                 <th>Topik_workshops</th>
                 <th>Fasilitator</th>
                 <th>Lokasi</th>
-                <th>Detail</th>
+                <th>Aksi</th>
                 
             </tr>
         </thead>

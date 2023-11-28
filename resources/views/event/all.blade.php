@@ -11,7 +11,7 @@
                 <th>Lokasi</th>
                 <th>Tanggal</th>
                 <th>Jumlah Peserta</th>
-                <th>Actions</th>
+                <th>Aksi</th>
             </tr>
         </thead>
         <tbody>

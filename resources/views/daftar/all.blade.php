@@ -12,7 +12,7 @@
                 <th>Nama_Peserta</th>
                 <th>Email</th>
                 <th>Tanggal_Pendaftaran</th>
-                <th>Actions</th>
+                <th>Aksi</th>
             </tr>
         </thead>
         <tbody>

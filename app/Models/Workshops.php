@@ -10,7 +10,7 @@ class workshops extends Model
     use HasFactory;
 
     protected $fillable = [
-        'nama',
+        'nama_workshops',
         'tanggal',
         'topik_workshops',
         'fasilitator',
